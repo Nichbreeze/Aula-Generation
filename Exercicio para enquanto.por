@@ -43,6 +43,56 @@ programa
 }
 }
 
+
+programa
+{
+	
+	função  inicio ()
+	{
+		inteiro num,somaPar = 0 ,somaImpar = 0 ,x
+
+		para (x = 1 ;x<= 10 ;x++)
+		{
+			escreva ( "\nEntre com um número: " )
+			leia (num)
+			se (num % 2 == 0 )
+			{
+				somaPar++ // somaPar = somaPar + 1
+			}
+			senão _
+			{
+				somaImpar++
+			}
+		}
+		escreva ( "\nTemos: " ,somaPar, " números pares..." )
+		escreva ( "\nTemos: " ,somaImpar, "números súplicas..." )
+	}
+}
+
+
+programa
+{
+	
+	função  inicio ()
+	{
+		tabuada inteira, x = 1 , resultado
+		escreva ( "\nDigite um numero de 1 a 10: " )
+		leia (tabuada)
+enquanto (tabuada < 1  ou tabuada > 10 )
+{
+escreva ( "\nDigite um numero de 1 a 10: " )
+leia (tabuada)
+}
+		fachada
+		{
+			resultado = tabuada * x
+			escreva ( "\n" , tabuada, "x" , x, "=" ,resultado)
+               x++		
+		}
+		enquanto (x<= 10 )
+	}
+	}
+/* $$$ Portugol Studio $$$
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
