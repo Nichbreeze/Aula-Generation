@@ -13,7 +13,7 @@ programa
 			{
 				somaPar++ // somaPar = somaPar + 1
 			}
-			senao
+			senão
 			{
 				somaImpar++
 			}
