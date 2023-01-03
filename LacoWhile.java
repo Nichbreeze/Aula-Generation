@@ -28,3 +28,67 @@ public class LacoWhile {
 	}
 
 
+----
+	package DesenvolvimentoJava;
+import java.util.Scanner;
+
+public class LacoFor {
+ 
+	
+
+	    public static void main(String[] args) {
+	        Scanner leia = new Scanner(System.in);
+
+	        int num,somaPar=0,somaImpar=0,x;
+
+
+	        for (x=1;x<=10;x++)
+	        {
+	            System.out.println("\nEntre com um número: ");
+	            num = leia.nextInt();
+	            if (num % 2 == 0)
+	            {
+	                somaPar++;
+	            }
+	            else
+
+	                {
+	                    somaImpar++;
+	                }
+
+	            }
+	            System.out.printf("\nTemos: "+somaPar+" números pares...");
+	            System.out.printf ("\nTemos: "+somaImpar+" números ímpares...");
+	        }
+	}
+
+
+----
+	
+	
+	package DesenvolvimentoJava;
+import java.util.Scanner;
+
+public class LacoDoWhile {
+	public static void main(String[] args) {
+	        Scanner leia = new Scanner (System.in);
+	        int soma=0,numero;
+	        System.out.println("Digite um número: ");
+
+	        do 
+	            {
+	            numero = leia.nextInt();
+	                if (numero>0)
+	                {
+	                    soma = numero + soma;
+	                }
+	            }
+	        while (numero!= 0);
+	        System.out.println("\nA soma dos números digitados foi: "+soma);
+
+	    }
+
+	}
+
+
+
